@@ -1,0 +1,115 @@
+{
+  "id": "9b0e2504-35e1-4b67-ada0-81e9266ddc8c",
+  "version": "2.0",
+  "name": "Selenium",
+  "url": "https://www.google.com/",
+  "tests": [{
+    "id": "9e758127-8989-4f91-82e9-576c5d9a0dff",
+    "name": "AISC Shapes",
+    "commands": [{
+      "id": "44af96db-2623-4fc7-b149-6f9d456b6914",
+      "comment": "Open Google in Browser",
+      "command": "open",
+      "target": "https://www.google.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "09e8b720-5179-40bd-bdfb-550d24301f00",
+      "comment": "Activate Search Bar",
+      "command": "click",
+      "target": "id=APjFqb",
+      "targets": [
+        ["id=APjFqb", "id"],
+        ["name=q", "name"],
+        ["css=#APjFqb", "css:finder"],
+        ["xpath=//textarea[@id='APjFqb']", "xpath:attributes"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e34ee63d-e8e8-4c13-83a8-511f5373cab7",
+      "comment": "Type 'aisc shapes database'",
+      "command": "type",
+      "target": "id=APjFqb",
+      "targets": [
+        ["id=APjFqb", "id"],
+        ["name=q", "name"],
+        ["css=#APjFqb", "css:finder"],
+        ["xpath=//textarea[@id='APjFqb']", "xpath:attributes"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "aisc shapes database"
+    }, {
+      "id": "fcd76bc2-4820-4873-b2ab-4d098770995b",
+      "comment": "Select from dropdown",
+      "command": "click",
+      "target": "css=#jZ2SBf > .wM6W7d > span",
+      "targets": [
+        ["css=#jZ2SBf > .wM6W7d > span", "css:finder"],
+        ["xpath=//div[@id='jZ2SBf']/div/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'aisc shapes database')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f04c0c35-2c4c-41ff-8dbd-847718ef38b8",
+      "comment": "Click first search results",
+      "command": "click",
+      "target": "css=#rso > .MjjYud:nth-child(1) .LC20lb",
+      "targets": [
+        ["css=#rso > .MjjYud:nth-child(1) .LC20lb", "css:finder"],
+        ["xpath=//div[@id='rso']/div/div/div/div/div/div/span/a/h3", "xpath:idRelative"],
+        ["xpath=//h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'AISC Shapes Database v16.0')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "76f2d7e8-0655-4ea2-bbe7-1f84e6d2d7fd",
+      "comment": "Download Link for spreadsheet",
+      "command": "click",
+      "target": "css=p:nth-child(3) > .button",
+      "targets": [
+        ["css=p:nth-child(3) > .button", "css:finder"],
+        ["xpath=//a[contains(text(),'Download Shapes Database v16.0')]", "xpath:link"],
+        ["xpath=//div[@id='off--canvas-body']/main/section[2]/div/div[2]/div/div/div/p[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/globalassets/product-files-not-searched/manuals/aisc-shapes-database-v16.0.xlsx')]", "xpath:href"],
+        ["xpath=//p[2]/a", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win6136",
+      "windowTimeout": 2000
+    }, {
+      "id": "d90041d5-f678-46fa-927a-09aedc61f83c",
+      "comment": "",
+      "command": "storeWindowHandle",
+      "target": "root",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bf708333-f5ba-44bb-80aa-2e4fbc6e1f7d",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "86ba86bf-1028-4c92-88bf-8712eaced9de",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "c710b345-e70d-4645-aad8-9fd52c88982f",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["9e758127-8989-4f91-82e9-576c5d9a0dff"]
+  }],
+  "urls": ["https://www.google.com/"],
+  "plugins": []
+}
