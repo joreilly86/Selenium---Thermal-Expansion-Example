@@ -7,9 +7,16 @@ This project provides a practical application of automation for civil and struct
 
 ## Features
 
+### Example 1: Selenium IDE - Automated Download of AISC Shapes Database
+
+- **Selenium IDE**: The test file for using the [Selenium IDE Chrome Extension](https://chromewebstore.google.com/detail/selenium-ide/mooikfkahbdckldjjndioackbalphokd) is included for Example 1 from the newsletter. This is for anyone interested in playing around with the record-macro features.
+
+### Example 2: Web Scraping Climate Data for Thermal Expansion Calculations
+
 - **Data Extraction with Selenium**: Utilizes Selenium, a powerful tool for web browser automation, to extract real-world climate data.
 - **Thermal Expansion Calculation**: Employs fundamental engineering principles to calculate the thermal expansion of steel members based on temperature changes.
 - **Visualization with Matplotlib**: Generates clear, informative plots to visualize the relationship between member length and thermal expansion.
+
 
 ## Application
 
