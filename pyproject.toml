@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "selenium-ex1"
+version = "0.1.0"
+description = "Simple use case example for Selenium as part of the Flocode Newsletter, Article #18."
+authors = ["joreilly86 <joreilly86@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+jupyter = "^1.0.0"
+matplotlib = "^3.8.2"
+pandas = "^2.1.4"
+selenium = "^4.16.0"
+openpyxl = "^3.1.2"
+webdriver-manager = "^4.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
