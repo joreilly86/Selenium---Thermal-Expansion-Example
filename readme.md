@@ -1,8 +1,9 @@
-# Thermal Expansion Analysis in Civil Engineering
+# [Flocode Newsletter](flocode.substack.com) | #019 - Automation for Civil/Structural Engineers | Selenium
+## Thermal Expansion Analysis for Steel Shapes
 
 ## Overview
 
-This project provides an insightful exploration into the world of civil engineering through a practical application of Python programming. Focused on the concept of thermal expansion in structural materials, it combines web scraping and numerical analysis to offer a comprehensive understanding of how temperature variations affect structural components.
+This project provides a practical application of automation for civil and structural engineers using [Selenium](selenium.dev). Focused on the concept of thermal expansion in structural materials, it combines web scraping and numerical analysis to show how temperature variations affect structural components.
 
 ## Features
 
@@ -12,7 +13,7 @@ This project provides an insightful exploration into the world of civil engineer
 
 ## Application
 
-The project is particularly valuable for civil and structural engineers, as well as students in these fields, providing a hands-on experience in applying Python to solve practical engineering problems. By automating data extraction and performing critical calculations, it demonstrates the integration of programming skills into traditional engineering practices.
+The project is for civil and structural engineers, as well as students in these fields, providing hands-on experience in using automation to solve practical engineering problems.
 
 ## Technology Stack
 
@@ -26,4 +27,8 @@ This project is beginner-friendly and is designed to be accessible for those new
 
 ## Contributing
 
-We welcome contributions and suggestions from the community! Whether you're a seasoned engineer, a student, or just passionate about learning, your insights can help enhance this project.
+We welcome contributions and suggestions from the [Flocode](flocode.substack.com) community! Whether you're a seasoned engineer, a student, or just passionate about learning, your insights can help enhance this project.
+
+## Learn More
+Visit [Flocode.dev](flocode.dev) to learn more about our Python courses, specifically tailored for engineers.
+Subscribe to the [Flocode Newsletter](flocode.substack.com) to stay up to date on the latest use cases and examples of Python for Engineers.
