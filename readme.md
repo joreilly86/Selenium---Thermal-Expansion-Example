@@ -1,4 +1,4 @@
-# [Flocode Newsletter](flocode.substack.com) | #019 - Automation for Civil/Structural Engineers | Selenium
+# [Flocode Newsletter](flocode.substack.com) | #018 - Automation for Civil/Structural Engineers | Selenium
 ## Thermal Expansion Analysis for Steel Shapes
 
 ## Overview
